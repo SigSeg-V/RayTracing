@@ -30,7 +30,7 @@ endif()
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${SUBSYSTEM_LINKER_OPTIONS}")
 
 add_executable(PistachioApp
-        Source/Private/PistachioApp.cpp
+        Source/Private/RayTracingApp.cpp
 )
 
 message(STATUS "${CMAKE_SOURCE_DIR}/Vendor/Pistachio/Source/Public")

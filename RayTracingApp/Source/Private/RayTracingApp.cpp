@@ -21,7 +21,7 @@ public:
 Pistachio::Application* Pistachio::CreateApplication(int argc, char** argv)
 {
 	Pistachio::ApplicationSpecification spec;
-	spec.Name = "Pistachio Example";
+	spec.Name = "Ray Tracing";
 
 	Pistachio::Application* app = new Pistachio::Application(spec);
 	app->PushLayer<ExampleLayer>();
