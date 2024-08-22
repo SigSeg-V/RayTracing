@@ -1,0 +1,3 @@
+[submodule "Vendor/Pistachio"]
+	path = Vendor/Pistachio
+	url = https://github.com/SigSeg-V/Pistachio

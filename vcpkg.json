@@ -1,0 +1,25 @@
+{
+  "dependencies": [
+    {
+      "name": "glfw3",
+      "version>=": "3.4"
+    },
+    {
+      "name": "imgui",
+      "default-features": false,
+      "features": [
+        "docking-experimental",
+        "glfw-binding",
+        "vulkan-binding"
+      ],
+      "version>=": "1.90"
+    },
+    {
+      "name": "stb",
+      "version>=": "2023-04-11#1"
+    },
+    "glm"
+  ],
+  "version": "0.1.0",
+  "name": "pistachio-app"
+}
